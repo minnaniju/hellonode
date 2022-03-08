@@ -8,7 +8,7 @@ build:
     env: DEV
     build_file: none
     output_files: output/*.zip
-    image_template: node-14.17
+    image_template: node-14.16
 
 
 deploy:
@@ -17,10 +17,11 @@ deploy:
     port:
     - 8080
     - 80
+    - 3000
 
 
 properties:
     page_title: "React-bootstrap + nodejs-express App"
     ##site_url: "https://hellonodejs.appzclient.com/"
-    revision: 25
+    revision: 33
     page_color: Blue
