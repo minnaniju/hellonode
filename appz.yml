@@ -13,8 +13,7 @@ build:
 
 deploy:
     context: minnaniju/DEV
-    oidc: inherit
-    ingress: service
+    ingress: none
     replicas: 1
     port:
     - 8080
