@@ -10,7 +10,7 @@ build:
     output_files: output/*.zip
     image_template: node-14.16
     args:
-      NPM_UNSAFE_PERM: "1"
+      NPM_UNSAFE_PERM: "0"
 
 deploy:
     context: minnaniju/DEV
